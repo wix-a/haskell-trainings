@@ -43,7 +43,7 @@ Haskell LSP support (Optional):
 
     Note: Stack local bin directory must be in your PATH. Get it with `stack path --local-bin`
 
-    - Clone IDE engine [`git clone git@github.com](mailto:git@github.com):haskell/haskell-ide-engine.git`
+    - Clone IDE engine `git clone git@github.com:haskell/haskell-ide-engine.git`
     - Install **LTS** (and hoogle docs):
 
             cd ./haskell-ide-engine
