@@ -40,9 +40,8 @@ Minimal requirements:
 Haskell LSP support (Optional):
 
 - [Haskell IDE engine](https://github.com/haskell/haskell-ide-engine#installation-from-source)
-
-    Note: Stack local bin directory must be in your PATH. Get it with `stack path --local-bin`
-
+    
+    - Add Stack local bin directory to your `$PATH` `export PATH=$PATH:$(stack path --local-bin)`
     - Clone IDE engine `git clone git@github.com:haskell/haskell-ide-engine.git`
     - Install **LTS** (and hoogle docs):
 
